@@ -8,7 +8,7 @@ pipeline {
         }
         stage ('Unit testing') {
             steps {
-                sh 'mvn -version'
+                sh 'mvn -verify'
             }
         }       
     }
